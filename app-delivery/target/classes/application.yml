@@ -1,0 +1,26 @@
+server:
+  port: 8083
+
+spring:
+ datasource:
+  url: jdbc:postgresql://localhost:5432/dbdelivery
+  username: postgres
+  password: 041979
+
+ jpa:
+  database: POSTGRESQL
+  hibernate:
+   ddl-auto: update
+  show-sql: true
+
+#spring.application.name=app-delivery
+#
+#spring.datasource.url=jdbc:mysql://localhost:3306/dbdelivery
+#spring.datasource.username=root
+#spring.datasource.password=041979
+#
+#spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+#spring.jpa.hibernate.ddl-auto=update
+#spring.jpa.show-sql=true
+#
+#server.port=8087
